@@ -6,9 +6,11 @@ const Landing = () => {
       {/* All the <Link> components should live here */}
       <h1>All-The-Things</h1>
       <Link to="/the-boots-things">Boots' Things</Link><br/>
+      <Link to="/devons-things">Devon's Things</Link><br/>
       <Link to="/the-functional-things">Shahzad's Things</Link><br/>
       <Link to="/the-well-styled-things">David's Things</Link><br/>
       <Link to="/the-silly-things">Hunter's Things</Link><br/>
+      <Link to='/the-drew-things'>Drew's Things</Link>
     </>
   )
 }
