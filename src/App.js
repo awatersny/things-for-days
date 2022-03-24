@@ -125,6 +125,10 @@ const App = () => {
       />
       <Route
         path="/the-boots-things"
+        element={<ManliestThings things={devonThings} />}
+      />
+      <Route
+        path="/devons-things"
         element={<ManliestThings things={bootsThings} />}
       />
       <Route
