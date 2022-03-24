@@ -63,6 +63,18 @@ const App = () => {
     },
   ])
 
+  const [devonsThings, setDevonsThings] = useState([
+    {
+      name: 'Dfam',
+      
+      attributes: [
+        'has knobs',
+        'is synth'
+        
+      ],
+    },
+  ])
+
   const [davidsThings, setDavidsThings] = useState([
     {
       name: 'waffle',
