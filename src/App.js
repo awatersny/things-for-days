@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import ManliestThings from './pages/ManliestThings/ManliestThings'
+import DevonsThings from './pages/DevonsThings/DevonsThings'
 import FunctionalThings from './pages/FunctionalThings/FunctionalThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
@@ -65,18 +66,17 @@ const App = () => {
     },
   ])
 
-  const [devonThings, setDevonsThings] = useState([
+  const [devonsThings, setDevonsThings] = useState([
     {
-      name: 'DFAM',
-      image:
-        'No Image Added',
+      name: 'Dfam',
+      
       attributes: [
         'has knobs',
-        'is drum synth', 
+        'is synth'
+        
       ],
     },
   ])
-
 
   const [davidsThings, setDavidsThings] = useState([
     {
@@ -135,6 +135,10 @@ const App = () => {
       <Route
         path="/the-boots-things"
         element={<ManliestThings things={bootsThings} />}
+      />
+      <Route
+        path="/devons-things"
+        element={<DevonsThings things={devonsThings} />}
       />
       <Route
         path="/the-well-styled-things"
