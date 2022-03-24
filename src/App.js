@@ -117,12 +117,12 @@ const App = () => {
     },
   ])
 
-  const [drewsThings, setDrewsThings] = useState(
+  const [drewsThings, setDrewsThings] = useState([
     {
       name: "Nintendo Switch",
       attributes: ["bricked", "needs repair"]
     }
-  )
+  ])
 
   return (
     <Routes>
