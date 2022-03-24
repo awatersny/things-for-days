@@ -70,9 +70,22 @@ const App = () => {
     {
       name: 'Dfam',
       
+      image: 'https://media.sweetwater.com/api/i/f-webp__q-82__ha-422c8cf6c045306c__hmac-6e8bfef76aed8d706affee5aef63bb6ecd063be5/images/items/750/DFAM-large.jpg.auto.webp',
+
       attributes: [
         'has knobs',
-        'is synth'
+        'is drum synth'
+        
+      ],
+    },
+    {
+      name: 'M-32',
+      
+      image: 'https://media.sweetwater.com/api/i/f-webp__q-82__ha-e329b463c6de0d7d__hmac-2410ab8ca5c3ee2298bef30a1b283e8ec1abd29d/images/items/750/Mother32-large.jpg.auto.webp',
+
+      attributes: [
+        'has knobs',
+        'is subtractive monophonic synth'
         
       ],
     },
