@@ -51,7 +51,7 @@ const App = () => {
 
   const [bootsThings, setBootsThings] = useState([
     {
-      name: 'boots',
+      name: 'Boots',
       image:
         'https://i.imgur.com/EjfV0Hn.png',
       attributes: [
@@ -111,7 +111,7 @@ const App = () => {
         element={<FunctionalThings things={shahzadsThings} />}
       />
       <Route
-        path="/the-manliest-things"
+        path="/the-boots-things"
         element={<ManliestThings things={bootsThings} />}
       />
       <Route
