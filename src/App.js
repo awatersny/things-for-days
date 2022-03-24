@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import ManliestThings from './pages/ManliestThings/ManliestThings'
+import DevonsThings from './pages/DevonsThings/DevonsThings'
 import FunctionalThings from './pages/FunctionalThings/FunctionalThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
@@ -126,6 +127,10 @@ const App = () => {
       <Route
         path="/the-boots-things"
         element={<ManliestThings things={bootsThings} />}
+      />
+      <Route
+        path="/devons-things"
+        element={<DevonsThings things={devonsThings} />}
       />
       <Route
         path="/the-well-styled-things"
