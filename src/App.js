@@ -59,6 +59,7 @@ const App = () => {
         'leather',
         'ropers',
         'made for walking',
+        'something to add',
       ],
     },
   ])
