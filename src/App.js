@@ -63,6 +63,19 @@ const App = () => {
     },
   ])
 
+  const [devonThings, setDevonsThings] = useState([
+    {
+      name: 'DFAM',
+      image:
+        'No Image Added',
+      attributes: [
+        'has knobs',
+        'is drum synth', 
+      ],
+    },
+  ])
+
+
   const [davidsThings, setDavidsThings] = useState([
     {
       name: 'waffle',
