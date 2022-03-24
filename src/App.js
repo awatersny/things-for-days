@@ -6,6 +6,7 @@ import FunctionalThings from './pages/FunctionalThings/FunctionalThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
 import Landing from './pages/Landing/Landing'
+import DrewsThings from './pages/DrewsThings/DrewsThings'
 
 const App = () => {
   const [shahzadsThings, setShazadsThings] = useState([
@@ -115,6 +116,13 @@ const App = () => {
     },
   ])
 
+  const [drewsThings, setDrewsThings] = useState(
+    {
+      name: "Nintendo Switch",
+      attributes: ["bricked", "needs repair"]
+    }
+  )
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
@@ -134,6 +142,10 @@ const App = () => {
       <Route
         path="/the-silly-things"
         element={<SillyThings things={huntersThings} />}
+      />
+      <Route
+        path="/the-drew-things"
+        element={<DrewsThings things={drewsThings} />}
       />
     </Routes>
   )
